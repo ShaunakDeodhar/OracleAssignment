@@ -2,32 +2,32 @@
 <testng-results skipped="1" failed="1" ignored="0" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16289" started-at="2021-10-04T08:39:20 IST" finished-at="2021-10-04T08:39:37 IST">
+  <suite name="Suite" duration-ms="15798" started-at="2021-10-04T09:03:47 IST" finished-at="2021-10-04T09:04:02 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16289" started-at="2021-10-04T08:39:20 IST" finished-at="2021-10-04T08:39:37 IST">
+    <test name="Test" duration-ms="15798" started-at="2021-10-04T09:03:47 IST" finished-at="2021-10-04T09:04:02 IST">
       <class name="oracle.assignment.DockerTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:oracle.assignment.DockerTests@6a192cfe]" name="setup" is-config="true" duration-ms="8350" started-at="2021-10-04T08:39:20 IST" finished-at="2021-10-04T08:39:29 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:oracle.assignment.DockerTests@6a192cfe]" name="setup" is-config="true" duration-ms="6097" started-at="2021-10-04T09:03:47 IST" finished-at="2021-10-04T09:03:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyDefaultTab()[pri:1, instance:oracle.assignment.DockerTests@6a192cfe]" name="verifyDefaultTab" duration-ms="432" started-at="2021-10-04T08:39:29 IST" finished-at="2021-10-04T08:39:29 IST">
+        <test-method status="PASS" signature="verifyDefaultTab()[pri:1, instance:oracle.assignment.DockerTests@6a192cfe]" name="verifyDefaultTab" duration-ms="279" started-at="2021-10-04T09:03:53 IST" finished-at="2021-10-04T09:03:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDefaultTab -->
-        <test-method status="PASS" signature="applyFilter()[pri:2, instance:oracle.assignment.DockerTests@6a192cfe]" name="applyFilter" duration-ms="2225" started-at="2021-10-04T08:39:29 IST" finished-at="2021-10-04T08:39:32 IST">
+        <test-method status="PASS" signature="applyFilter()[pri:2, instance:oracle.assignment.DockerTests@6a192cfe]" name="applyFilter" duration-ms="2176" started-at="2021-10-04T09:03:53 IST" finished-at="2021-10-04T09:03:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- applyFilter -->
-        <test-method status="PASS" signature="additionalFilter()[pri:3, instance:oracle.assignment.DockerTests@6a192cfe]" name="additionalFilter" duration-ms="4328" started-at="2021-10-04T08:39:32 IST" finished-at="2021-10-04T08:39:36 IST">
+        <test-method status="PASS" signature="additionalFilter()[pri:3, instance:oracle.assignment.DockerTests@6a192cfe]" name="additionalFilter" duration-ms="4308" started-at="2021-10-04T09:03:55 IST" finished-at="2021-10-04T09:03:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- additionalFilter -->
-        <test-method status="PASS" signature="removeFilter()[pri:4, instance:oracle.assignment.DockerTests@6a192cfe]" name="removeFilter" duration-ms="132" started-at="2021-10-04T08:39:36 IST" finished-at="2021-10-04T08:39:36 IST">
+        <test-method status="PASS" signature="removeFilter()[pri:4, instance:oracle.assignment.DockerTests@6a192cfe]" name="removeFilter" duration-ms="2166" started-at="2021-10-04T09:03:59 IST" finished-at="2021-10-04T09:04:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeFilter -->
-        <test-method status="FAIL" signature="failingTest()[pri:5, instance:oracle.assignment.DockerTests@6a192cfe]" name="failingTest" duration-ms="3" started-at="2021-10-04T08:39:36 IST" finished-at="2021-10-04T08:39:36 IST">
+        <test-method status="FAIL" signature="failingTest()[pri:5, instance:oracle.assignment.DockerTests@6a192cfe]" name="failingTest" duration-ms="2" started-at="2021-10-04T09:04:02 IST" finished-at="2021-10-04T09:04:02 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[null]]>
@@ -71,7 +71,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failingTest -->
-        <test-method status="SKIP" signature="skippedTest()[pri:6, instance:oracle.assignment.DockerTests@6a192cfe]" name="skippedTest" duration-ms="2" started-at="2021-10-04T08:39:36 IST" finished-at="2021-10-04T08:39:36 IST">
+        <test-method status="SKIP" signature="skippedTest()[pri:6, instance:oracle.assignment.DockerTests@6a192cfe]" name="skippedTest" duration-ms="3" started-at="2021-10-04T09:04:02 IST" finished-at="2021-10-04T09:04:02 IST">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping test]]>
@@ -113,7 +113,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skippedTest -->
-        <test-method status="PASS" signature="endExecution()[pri:0, instance:oracle.assignment.DockerTests@6a192cfe]" name="endExecution" is-config="true" duration-ms="716" started-at="2021-10-04T08:39:36 IST" finished-at="2021-10-04T08:39:37 IST">
+        <test-method status="PASS" signature="endExecution()[pri:0, instance:oracle.assignment.DockerTests@6a192cfe]" name="endExecution" is-config="true" duration-ms="671" started-at="2021-10-04T09:04:02 IST" finished-at="2021-10-04T09:04:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endExecution -->

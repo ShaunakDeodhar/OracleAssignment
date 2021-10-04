@@ -112,11 +112,11 @@ public class DockerTests {
 	@Test(priority = 4)
 	@Description("Remove a filter and verify if the checkbox is unchecked")
 	@Severity(SeverityLevel.CRITICAL)
-	public void removeFilter() {
+	public void removeFilter() throws InterruptedException {
 		
 		//4. Click the close icon (X) on the database filter
 		driver.findElement(By.xpath("//div[@data-testid='currentFilters']/div[text()='Databases']")).click();
-		
+		Thread.sleep(2000);
 		//a. Verify the corresponding check box in the left filter pane is also unchecked.
 		//Fetched the corresponding input tag and validating that it is not selected
 		boolean isDatabaseCheckboxSelected = driver.findElement(By.xpath("//label[text()='Databases']/../../input"))
